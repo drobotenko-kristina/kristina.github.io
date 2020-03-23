@@ -1,16 +1,12 @@
-div {
-   text-align: center;
-   color: #ffffff;
-   font-size: 30px;
-   font-weight: 600;
+b{
+    color: #000066;
+    font-size: 60px;
+    position: center;
+    margin: 0;
+    text-align: center;
+
 }
-A {
-    color: #FF7744; /* Цвет ссылок */
-   }
-   A:visited {
-    color: #AAAAAA; /* Цвет посещенных ссылок */
-   }
-   A:active {
-    color: #9966ff; /* Цвет активных ссылок */
-   }
-   
+.carousel-item img {
+    height: 500px;
+
+}
