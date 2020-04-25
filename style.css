@@ -63,3 +63,8 @@ input[type="password"] {
   padding: 10px 15px;
   background: #e6e6e6;
 }
+
+
+.center-img {
+  text-align: center;
+}

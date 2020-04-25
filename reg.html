@@ -20,7 +20,31 @@
 
 <body bgcolor="#000" background="font.webp">
 
-    <div class="container" id="header">
+    
+	<script>
+		function registr() {
+			var name ;
+			var lastname ;
+			var mobile;
+			var login;
+			var password;
+			
+			name = document.getElementById('n').value;
+			lastname = document.getElementById('ln').value;
+			mobile = document.getElementById('mob').value;
+			login = document.getElementById('log').value;
+			password = document.getElementById('par').value
+
+			//отправка данных на сервер
+		}
+
+	</script>
+
+	
+	
+	
+	
+	<div class="container" id="header">
 		<IMG SRC="logo.png" ALIGN="left">
 		<div class="container text-center">
 			<b> Дом в лесу </b>
@@ -36,27 +60,27 @@
 			 <form>
 				<div>
 					<label for="name">Фамилия</label>
-					<input type="text" name="lastname" required>
+					<input type="text" name="lastname" required id="n">
 				</div>
 				
 				<div>
 					<label for="name">Имя</label>
-					<input type="text" name="name" required>
+					<input type="text" name="name" required id="ln">
 				</div> 	
 				
 				<div>
 					<label for="name">Номер телефона</label>
-					<input type="text" name="tel" required>
+					<input type="text" name="tel" required id="mob">
 				</div>
 				
 				<div>
 					<label for="name">e-mail</label>
-					<input type="text" name="mail" required>
+					<input type="text" name="mail" required id="log">
 				</div>
 				
 				<div>
 					<label for="name">Пароль</label>
-					<input type="text" name="pass" required>
+					<input type="text" name="pass" required id="par">
 				</div>
 				
 				<div class="select-arrow">
@@ -66,12 +90,13 @@
 		<br>
 	</div>
 	<div class="container text-right">
-         <a href="vhod.html" 
+        <!-- <a href="vhod.html" 
 			class="btn btn-info btn-lg active" 
 			style="display: inline; margin-center: auto;" 
 			role="button"aria-pressed="true">
 			Регистрация
-		 </a>	
+		 </a>	-->
+		 <button onclick="proverka()"  class="btn btn-primary" > Регистрация </button>
 		<br>
 		<br>
 		<a href="vhod.html">
